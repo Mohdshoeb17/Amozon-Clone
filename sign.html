@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign page</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+       <div class="confirm-signin">
+        <img src="" alt="">
+        <h1>Congratulations</h1>
+       </div>
+    <a href="index.html" ><img class="logo" src="imm.jpg/amazon_logo_dark.png" alt="" width="100"> </a>
+    <div class="signin-container">
+        <h1 class="signin-tittle">Sign In</h1>
+        <h5 class="input-lable">Email or mobile phone number</h5>
+        <input class="input" type="text" placeholder="Email or phone number">
+        <button class="btn-continue">Continue</button>
+        <p class="signin-condition">By continuing ,you agree to amozone <span>conditions of use</span> and <span>privecy notice
+
+        </span> .</p>
+        <p class="need-help">
+           <span> &#9656</span>  Need help
+        </p>
+        <hr>
+        <h4>Buying for work?</h4>
+        <p class="sign-business"><span>Shop on Amozone Business</span></p>
+    </div>
+    
+    <div class="signin-bottom">
+        <hr>
+        <h5>New to Amozone?</h5>
+        <hr>
+    </div>
+<a href="signup.html">
+<button class="signin-signup-btn">Create your Amozon account</button>
+</a>
+ <footer>
+    <div class="footer-links">
+        <a href="#">Condition of Use</a>
+        <a href="#">Privacy Notice</a>
+        <a href="#">Help</a>
+    </div>
+ </footer>     
+   <script>
+    var input=document.querySelector('.input');
+    let btn=document.querySelector('.btn-continue');
+    var confirmsigninnew=document.querySelector('.confirm-signin')
+    var logo=document.querySelector('.logo')
+    var signincontainer=document.querySelector('.signin-container')
+    var signinbottom=document.querySelector('.signin-bottom')
+    var signinsignupbtn=document.querySelector('.signin-signup-btn')
+    btn.addEventListener('click',()=>{
+        if (input.value!="")
+    {
+      confirmsigninnew.classList.add("confirmsigninnews") 
+      logo.style.display='none';
+      signincontainer.style.display='none';
+      signinbottom.style.display='none';
+      signinsignupbtn.style.display='none';
+    }
+    }) 
+
+    
+   </script>
+</body>
+</html>

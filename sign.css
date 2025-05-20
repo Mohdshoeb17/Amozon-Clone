@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background-color:#fff;
+    text-align: center;
+    min-height: 100vh;
+}
+.logo{
+    margin-top: 25px;
+}
+.signin-container{
+    max-width: 350px;
+    border-radius: 8px;
+    border: 1px solid #d2d2d2;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 26px;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgb(221, 201, 201);
+}
+.signin-tittle{
+    font-size: 28px;
+    font-weight: 400;
+}
+.input-lable{
+    margin-top: 10px;
+}
+.signin-container input{
+    width: 100%;
+    padding: 3px 7px;
+    border-radius: 3px;
+  margin-top: 5px;
+    border: 1px solid #a0a0a0;
+    font-size: 15px;
+}
+.signin-container input:focus{
+    outline: 3px solid #c2f2ff;
+}
+.signin-container button{
+    padding: 8px 0;
+    width: 100%;
+    margin: 15px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffd814;
+}
+.signin-container button:hover{
+    background-color: #ebc712;
+}
+.signin-condition span{
+    color: #0066c0;
+}
+.need-help{
+    color: #0066c0;
+    margin-top: 15px;
+}
+.need-help span{
+    font-size: 20px;
+}
+.signin-container hr{
+    border: none;
+    height: 1px;
+    background-color: #d4d4d4;
+    }
+.signin-container h4{
+    margin: 15px 0;
+}
+.sign-business span{
+    font-size: 13px;
+    color: #0066c0;
+}
+.signin-bottom{
+    font-size: 13px;
+    max-width: 350px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin-bottom hr{
+    border: none;
+    height: 1px;
+    background-color: #d4d4d4;
+    width: 125px;
+    }
+    .signin-signup-btn{
+        padding: 5px 80px;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        min-height: 100px;
+        padding: 20px 0;
+        position: fixed;
+        bottom: 0;
+        background: linear-gradient(to bottom,#f4f4f4,#fff);
+        border-radius: 2px solid #ededed;
+    }
+    .footer-links{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        color: #0066c0;
+    }
+    .confirm-signin{
+        padding: 20px 30px;
+        background-color:#fff;
+        height: 200px;
+        width: 200px;
+        position:absolute;
+        box-shadow: 0px 0px 10px gray;
+        visibility: hidden;
+        top:0;
+        left: 50%;
+        transform: translate(-50%,-50%) scale(.2);
+        transition: all 1s;
+
+    }
+    .confirmsigninnews{
+    visibility: visible;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%)  scale(1.2);
+    }
+    .confirm-signin h1{
+        margin-top: 30px;
+        font-size: 20px;
+        color: green;
+    }
+    /* .confirm-signin img{
+        background-color:green;
+        padding: 5px 8px;
+        border-radius: 50%;
+    } */
+

@@ -1,0 +1,159 @@
+.card{
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+}
+.card-left{
+    background-color: #fff;
+    padding: 20px;
+}
+.card-left h1{
+font-size: 28px;
+font-weight: 400;
+margin-bottom: 15px;
+}
+.card-left hr{
+    border: none;
+    height: 1px;
+    background: #dadada;
+}
+.product-card-list{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding: 24px 0 12px 12px;
+}
+.product-card-tittleprice{
+  display: flex;gap: 25px;
+  font-size: 18px;
+}
+.product-card-bestseller {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.product-card-bestseller  span{
+   font-size: 13px;
+   background: #c45500;
+   color: #fff;
+   padding: 3px 8px;
+}
+.product-card-stock{
+    font-size: 13px;
+    color: #007600;
+    margin-top: 4px;
+}
+.product-card-delivery{
+    font-size: 15px;
+}
+.product-card-return{
+    font-size: 15px;
+    color: #007185;
+}
+.product-card-giftoption span{
+    color: #007185;
+}
+.product-card-spacs{
+    max-width: 150px;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 3px;
+    font-size: 13px;
+    margin: 7px 0;
+}
+.product-card-spacs span{
+    color: #007185;
+
+}
+.card-list-action{
+    display: flex;
+    gap: 12px;
+    font-size: 14px;
+    color: #007185;
+}
+.card-list-action hr{
+    height: 20px;
+    width: 1px;
+    background: #cfcfcf;
+}
+.card-list-action select{
+    padding: 5px;
+    border-radius: 6px;
+    background: #f3f3f3;
+}
+.card-list-subtotal{
+    text-align: right;
+}
+.card-right{
+    padding: 20px;
+    background-color: #fff;
+    max-width: 280px;
+    max-height: 220px;
+
+}
+.card-free-delivary{
+    display: flex;
+    font-size: 13px;
+}
+.card-subtotal{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.card-right-gift{
+    margin: 7px 0;
+    font-size: 14px;
+}
+.card-right button{
+    width: 100%;
+    margin: 15px 0;
+    background-color: #ffd814;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 32px;
+}
+.card-right button:hover{
+    background: #ebc712;
+}
+@media (max-width:900px) {
+    .card{
+  display: flex;
+  flex-direction: column;
+    }
+    .product-card-list{
+        width: 100%;
+        margin: 15px auto;
+    }
+}
+@media (max-width:600px) {
+    .product-card-list{
+        padding: 24px 0px;
+    }
+    .product-card-list img{
+        width: 80px;
+    }
+    .product-card-tittleprice{
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    .product-card-delivery{
+        font-size: 13px;
+    }
+    .card-list-action{
+        flex-wrap: nowrap;
+        height: 34px;
+    }
+    .card-list-action hr {
+        display: none;
+    }
+    .card-list-subtotal{
+        display: flex;
+        justify-content: center;
+    }
+    .card-right{
+       max-width: 500px;
+       text-align: center;
+       margin: 10px auto;
+
+    }
+}
